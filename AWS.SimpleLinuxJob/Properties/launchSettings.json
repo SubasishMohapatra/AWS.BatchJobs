@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AWS.SimpleLinuxJob": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
