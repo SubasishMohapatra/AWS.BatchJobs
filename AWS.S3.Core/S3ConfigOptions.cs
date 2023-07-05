@@ -1,4 +1,4 @@
-﻿namespace HuRo.S3.Core
+﻿namespace AWS.S3.Core
 {
     public class S3ConfigOptions
     {

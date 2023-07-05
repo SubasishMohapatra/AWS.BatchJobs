@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace HuRo.S3.Core
+namespace AWS.S3.Core
 {
     public static class ServiceCollectionExtension
     {

@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HuRo.S3.Core\HuRo.S3.Core.csproj" />
+    <ProjectReference Include="..\AWS.S3.Core\AWS.S3.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

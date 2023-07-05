@@ -1,5 +1,5 @@
 ﻿using Amazon.CloudWatchLogs;
-using HuRo.S3.Core;
+using AWS.S3.Core;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
@@ -23,25 +23,11 @@ namespace AWS.SimpleLinuxJob
 
             // Build the service provider
             var serviceProvider = BuildServiceProvider(configuration);
-            //string? logGroupName = configuration["Serilog:WriteTo:1:Args:logGroupName"];
-            //string? region = configuration["Serilog:WriteTo:1:Args:region"];
+            
             string? parameterValue = Environment.GetEnvironmentVariable("SampleParameterName");
-
-            //Log.Logger = new LoggerConfiguration()
-            // .MinimumLevel.Information()
-            // .WriteTo.Console()
-            // .WriteTo.AmazonCloudWatch(new CloudWatchSinkOptions
-            // {
-            //     LogGroupName = logGroupName,
-            //     LogStreamNameProvider = new DefaultLogStreamProvider(),
-            //     TextFormatter = new Serilog.Formatting.Json.JsonFormatter(),
-            //     MinimumLogEventLevel = LogEventLevel.Information
-            // }, new AmazonCloudWatchLogsClient(new AmazonCloudWatchLogsConfig { RegionEndpoint = Amazon.RegionEndpoint.GetBySystemName(region)}))
-            // .CreateLogger();
 
             Log.Information($"Environemnt value received - {parameterValue}");
             Log.Information("Upload S3 file started...");
-            //Log.Information($"LogGroupName - {logGroupName}, Region - {region}");
 
             // Upload S3 file
             var amazonS3Service = serviceProvider.GetService<IAmazonS3Service>();

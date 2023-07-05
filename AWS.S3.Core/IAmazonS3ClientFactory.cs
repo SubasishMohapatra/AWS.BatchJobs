@@ -1,6 +1,6 @@
 ﻿using Amazon.S3;
 
-namespace HuRo.S3.Core
+namespace AWS.S3.Core
 {
     public interface IAmazonS3ClientFactory
     {

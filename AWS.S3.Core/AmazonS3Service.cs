@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using System.Net;
 
-namespace HuRo.S3.Core
+namespace AWS.S3.Core
 {
     public class AmazonS3Service : IAmazonS3Service
     {

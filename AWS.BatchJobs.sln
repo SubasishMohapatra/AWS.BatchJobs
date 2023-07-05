@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.BatchJobs.SampleJobCreator", "AWS.BatchJobs.SampleJobCreator\AWS.BatchJobs.SampleJobCreator.csproj", "{32A9D1CC-D2EB-477F-9E98-02441783EDDA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuRo.S3.Core", "HuRo.S3.Core\HuRo.S3.Core.csproj", "{211459E8-7E6A-403C-A069-AD9D21FD1C5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.S3.Core", "AWS.S3.Core\AWS.S3.Core.csproj", "{211459E8-7E6A-403C-A069-AD9D21FD1C5B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.SimpleLinuxJob", "AWS.SimpleLinuxJob\AWS.SimpleLinuxJob.csproj", "{AE7134D1-60BC-40B3-9F13-486F0BDF43B9}"
 EndProject

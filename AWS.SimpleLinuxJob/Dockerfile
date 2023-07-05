@@ -6,7 +6,7 @@ WORKDIR /app
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
 COPY ["AWS.SimpleLinuxJob/AWS.SimpleLinuxJob.csproj", "AWS.SimpleLinuxJob/"]
-COPY ["HuRo.S3.Core/HuRo.S3.Core.csproj", "HuRo.S3.Core/"]
+COPY ["AWS.S3.Core/AWS.S3.Core.csproj", "AWS.S3.Core/"]
 RUN dotnet restore "AWS.SimpleLinuxJob/AWS.SimpleLinuxJob.csproj"
 COPY . .
 WORKDIR "/src/AWS.SimpleLinuxJob"

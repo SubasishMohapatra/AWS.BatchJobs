@@ -2,7 +2,7 @@
 using Amazon.S3;
 using Microsoft.Extensions.Options;
 
-namespace HuRo.S3.Core
+namespace AWS.S3.Core
 {
     public class AmazonS3ClientFactory : IAmazonS3ClientFactory
     {
