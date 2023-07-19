@@ -30,6 +30,7 @@ namespace AWS.SecondaryBatchJob
         {
             return new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                .AddUserSecrets<Program>()
                 .Build();
         }
 
