@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "AWS.SimpleLinuxJob": {
+    "AWS.SecondaryBatchJob": {
       "commandName": "Project"
     },
     "Docker": {
