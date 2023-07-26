@@ -1,5 +1,5 @@
 ﻿using Amazon.CloudWatchLogs;
-using AWS.S3.Core;
+using Huron.AWS.S3.Core;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;

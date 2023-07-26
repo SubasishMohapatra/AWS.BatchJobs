@@ -1,7 +1,7 @@
 ﻿using Amazon.Batch;
 using Amazon.Batch.Model;
 using Amazon.Runtime;
-using AWS.S3.Core;
+using Huron.AWS.S3.Core;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Text;
